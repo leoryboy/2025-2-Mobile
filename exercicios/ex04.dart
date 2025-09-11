@@ -1,13 +1,12 @@
-import 'dart:io'; // Importa a biblioteca para entrada de dados pelo terminal
+import 'dart:io'; 
 
 void main() {
 
-  stdout.write('Digite a primeira nota: '); 
+  stdout.write('Digite a primeira nota: '); //stdout.write para não quebra a linha
   String? input1 = stdin.readLineSync(); 
   double nota1 = double.parse(input1!); // Converte a primeira nota para double
 
-  // Solicita a segunda nota do aluno
-  stdout.write('Digite a segunda nota: ');
+  stdout.write('Digite a segunda nota: '); //stdout.write para não quebra a linha
   String? input2 = stdin.readLineSync();
   double nota2 = double.parse(input2!); // Converte a segunda nota para double
 
