@@ -4,12 +4,12 @@ void main() {
 
   print("Digite seu peso em kg:");
   String? entradaPeso = stdin.readLineSync();
-  double peso = double.parse(entradaPeso!);
+  double peso = double.parse(entradaPeso!); // Converte a primeira para double
 
 
   print("Digite sua altura em metros (ex: 1.75):");
   String? entradaAltura = stdin.readLineSync();
-  double altura = double.parse(entradaAltura!);
+  double altura = double.parse(entradaAltura!); // Converte a primeira para double
 
   // Calcula o IMC
   double imc = peso / (altura * altura);
